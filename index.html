@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puspalal-Newar-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="logo">Puspalal</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+
+        </ul>
+        <i id="class-i" class="fa-solid fa-bars"></i>
+        <i id="class-j" class="fa-solid fa-xmark"></i>
+    </nav>
+    <div class="nav-container">
+        <ul class="ham-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+
+        </ul>
+    </div>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="puspalalnewar.jpg" alt="Puspalal Profile Picture">
+        </div>
+        <div class="section-text">
+            <p class="section-heading">Hello, i'am</p>
+
+            <h2 class="section-name">Puspalal Newar</h2>
+
+            <p class="section-work">Frontend Developer</p>
+            <div class="btn btn-primary-container">
+                <button class="btn btn-primary btn btn-primary1"
+                    onclick="window.open('/puspalalnewar_resume.pdf')">Download CV</button>
+                <button class="btn btn-primary btn btn-primary2" onclick="location.href='./#contact'">Contact
+                    Info</button>
+            </div>
+            <div class="socials-container">
+                <i id="icon-l" class="fa-brands fa-linkedin"
+                    onclick="window.open('https://www.linkedin.com/in/puspalalnewar/')"></i>
+                <i id="icon-g" class="fa-brands fa-square-github"
+                    onclick="window.open('https://github.com/puspalalnewar') "></i>
+                <i id="icon-x" class="fa-brands fa-square-x-twitter"
+                    onclick="window.open('https://twitter.com/PuspalalNewar')"></i>
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+
+        <h1 class="heading">About Me</h1>
+
+        <div class="container">
+            <div class="about-content">
+                <h2>Summary</h2>
+                <h3>Hello, My name is Puspalal Newar. I am a student of 1st Year (B.Sc. Computer Science). Currenty I am
+                    pursuing my B.Sc. Computer Science Degree from APC Roy Government College. My hobby is to play
+                    Cricket.</h3>
+            </div>
+            <div class="about-quali">
+                <h2>Qualification</h2>
+
+                <h3>B.Sc. Computer Science : Present</h3>
+                <h3>12th (Science) : 2022</h3>
+                <h3>10th: 2020</h3>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="skill">
+        <div class="header-skill-head">
+            <h1>My <span>Skills</span></h1>
+        </div>
+        <d class="skill-main">
+            <div class="frontend-skill">
+                <h2>Frontend Skill</h2>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p class="percentage">70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p class="percentage">50%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p class="percentage">50%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Bootstrap</p>
+                        <p class="percentage">60%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="boots"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="frontend-skill">
+                    <h2>Backend Skill</h2>
+                    <div class="skill-bar">
+                        <div class="info">
+                            <p>Node Js</p>
+                            <p class="percentage">40%</p>
+                        </div>
+                        <div class="bar">
+                            <span class="node"></span>
+                        </div>
+                    </div> 
+                </div> -->
+
+            </div>
+    </section>
+
+    <section id="projects">
+        <p>Browse My Recent</p>
+        <h1 class="heading">Projects</h1>
+        <div class="container">
+            <div class="project-1">
+                <img src="tictactoe1.png" alt="tic tac toe">
+                <p class="project-title">Tic Tac Toe</p>
+                <div class="buttons">
+                    <button onclick="window.open('https://github.com/puspalalnewar/tic-tac-toe')"
+                        class="btn btn-primary">Git
+                        Hub</button>
+                    <button onclick="window.open('https://pn-tictac-toe.netlify.app/')" class="btn btn-primary">Live
+                        Demo</button>
+                </div>
+            </div>
+            <div class="project-1">
+                <img src="searchimages1.png" alt="search images app">
+                <p class="project-title">Search Images</p>
+                <div class="buttons">
+                    <button onclick="window.open('https://github.com/puspalalnewar/search-images')"
+                        class="btn btn-primary">Git
+                        Hub</button>
+                    <button onclick="window.open('https://pn-search-images.netlify.app/')" class="btn btn-primary">Live
+                        Demo</button>
+                </div>
+            </div>
+            <div class="project-1">
+                <img src="quote.png" alt="random quote generator">
+                <p class="project-title">Random Quote Generator</p>
+                <div class="buttons">
+                    <button onclick="window.open('https://github.com/puspalalnewar/random-quote-generator')"
+                        class="btn btn-primary">Git Hub</button>
+                    <button onclick="window.open('https://pn-quote-generator.netlify.app/')"
+                        class="btn btn-primary">Live
+                        Demo</button>
+                </div>
+            </div>
+            <div class="project-1">
+                <img src="currencyconverter.png" alt="currency converter">
+                <p class="project-title">Currency Converter</p>
+                <div class="buttons">
+                    <button class="btn btn-primary"
+                        onclick="window.open('https://github.com/puspalalnewar/currency-converter')">Git
+                        Hub</button>
+                    <button onclick="window.open('https://pn-currency-converter.netlify.app/')"
+                        class="btn btn-primary">Live
+                        Demo</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <p>Get In Touch</p>
+        <h1 class="heading">Contact Me</h1>
+        <div class="container">
+            <div class="contact-me">
+                <div class="email">
+                    <!-- <img src="email.png" alt="Email" class="icon"> -->
+                    <i id="icon-g" class="fa-solid fa-envelope"></i>
+                    <p>puspalalnewar79@gmail.com</p>
+                </div>
+                <div class="linkedin">
+
+                    <i id="icon-l" class="fa-brands fa-linkedin"
+                        onclick="window.open('https://www.linkedin.com/in/puspalalnewar/')">
+                    </i>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
