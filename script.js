@@ -11,14 +11,6 @@ ham.addEventListener("click", ()=>{
         navCont.style.display = "block";
         ham.style.display = "none";
         xBar.style.display = "block";
-    }else{
-        // navCont.style.display = "none";
-        // ham.style.display = "block";
-        // xBar.style.display = "none";
-    //     ham.style.display = "block";
-    // navCont.style.display = "none";
-    // xBar.style.display = "none";
-
     }
 });
 xBar.addEventListener("click", ()=>{
@@ -26,6 +18,12 @@ xBar.addEventListener("click", ()=>{
     navCont.style.display = "none";
     xBar.style.display = "none";
 });
+
+while(b.style.width >= "762px"){
+    ham.style.display = "none";
+    navCont.style.display = "none";
+    xBar.style.display = "none";
+}
 
 
     
