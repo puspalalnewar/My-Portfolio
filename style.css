@@ -20,8 +20,10 @@ html{
     background-color: #1b4d6a;
     align-items: center;
     color: white;
+    
 }
 .nav-links{
+    display: block;
     display: flex;
     color: white;
     gap: 2rem;
@@ -385,30 +387,46 @@ a:hover{
     font-size: 1.5rem;
 } 
 
-@media screen and (max-width: 762px){
+
+@media(min-width:762px){
+    nav{
+        overflow: hidden;
+    }
     #class-i{
+        visibility: hidden;
+        
+    }
+    #class-j{
+        visibility: hidden;
+        font-size: 1.5rem;
+    } 
+    .nav-container{
+        visibility: hidden;
+    }
+    
+}
+@media screen and (max-width: 762px){
+    #class-i{ 
         display: block;
         font-size: 1.5rem;
         
     }
     .nav-links li{
         display: none;
-    }
-    .nav{
-        /* display: flex; */
-        /* justify-content: space-between; */
-        /* background-color: #1b4d6a; */
-        /* padding: 1rem; */
-    }
-    #profile{
+    } 
+    /* .nav{
+        display: flex;
+        justify-content: space-between; 
+        background-color: #1b4d6a;
+        padding: 1rem;
+     }  */
+     #profile{
         flex-wrap: wrap;
     }
     .section-pic-container{
-        
         height: 250px;
-        
-    }
+    } 
     
     
-}
+} 
     
