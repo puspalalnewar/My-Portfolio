@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
+/* #182d38 */ 
 *{
     margin: 0;
     padding: 0;
@@ -195,7 +195,6 @@ a:hover{
     padding-left: 1rem;
     padding-right: 1rem;
     width: 600px;
-    /* border: 1px solid gray; */
     background-color: #0b425f;
     height: 300px;
     border-radius: 2rem;
@@ -221,7 +220,6 @@ a:hover{
 }
 .frontend-skill{
     width: 600px;
-    /* border: 1px solid gray; */
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 2rem;
@@ -348,17 +346,6 @@ a:hover{
     margin-top: 2rem;
     text-align: center;
 }
-.contact-me{
-    background-color: #0b425f;
-    display: flex;
-    justify-content: space-around;
-    /* border: 1px solid gray; */
-    border-radius: 2rem;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
 .email{
     display: flex;
     align-items: center;
@@ -414,12 +401,6 @@ a:hover{
     .nav-links li{
         display: none;
     } 
-    /* .nav{
-        display: flex;
-        justify-content: space-between; 
-        background-color: #1b4d6a;
-        padding: 1rem;
-     }  */
      #profile{
         flex-wrap: wrap;
     }
@@ -429,4 +410,28 @@ a:hover{
     
     
 } 
+.contact-inputs{
+    background-color: #0b425f;
+    display: block;
+    width: 22rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.text-area{
+    height: 10rem;
+}
+.submit-btn{
+    height: 3.3rem;
+    width: 8rem;
+    background-color: #19d9ff;
+    font-size: large;
+    border-radius: 2rem;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
     

@@ -202,21 +202,14 @@
         <p>Get In Touch</p>
         <h1 class="heading">Contact Me</h1>
         <div class="container">
-            <div class="contact-me">
-                <div class="email">
-                    <!-- <img src="email.png" alt="Email" class="icon"> -->
-                    <i id="icon-g" class="fa-solid fa-envelope"></i>
-                    <p>puspalalnewar79@gmail.com</p>
-                </div>
-                <div class="linkedin">
-
-                    <i id="icon-l" class="fa-brands fa-linkedin"
-                        onclick="window.open('https://www.linkedin.com/in/puspalalnewar/')">
-                    </i>
-
-
-                </div>
-            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-me">
+                <input type="hidden" name="access_key" value="cf70bdcf-7b73-4e72-a431-a2707f8a3dac">
+                <input class="contact-inputs" type="text" name="name" placeholder="Your Name" required>
+                <input class="contact-inputs" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="contact-inputs text-area" name="message" placeholder="Message" required></textarea>
+                <button class="submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
         </div>
     </section>
 
