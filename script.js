@@ -1,8 +1,6 @@
 let ham = document.getElementById("class-i");
 let xBar = document.getElementById("class-j");
 let navCont = document.querySelector(".nav-container");
-// let b = document.querySelector("body");
-// let c = document.querySelector(".nav-links");
 navCont.style.display = "none";
 
 ham.addEventListener("click", () => {
