@@ -41,8 +41,6 @@ html{
 .nav-container{
     height: 17vh;
     margin-top: 2rem;
-    /* margin-top: 50%; */
-    /* text-align: center; */
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 2rem;
@@ -116,6 +114,13 @@ a:hover{
     height: 2rem;
     font-size: 2rem;
 }
+.leetcode{
+    width: 1.8rem;
+    height: 1.8rem;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
 #icon-g{
     cursor: pointer;
     height: 2rem;
@@ -155,7 +160,7 @@ a:hover{
 }
 /* About Scetion */
 #about{
-    /* overflow: hidden; */
+
     height: auto;
 }
 .heading{
@@ -176,7 +181,6 @@ a:hover{
 }
 .about-content{
     width: 600px;
-    /* border: 1px solid gray; */
     height: 300px;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -190,21 +194,7 @@ a:hover{
     margin-bottom: 1rem;
     
 }
-.about-quali h2{
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.about-quali{
-    text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 600px;
-    background-color: #182d38;
-    box-shadow: 0 0 1rem gray;
-    height: 300px;
-    border-radius: 2rem;
-}
+
 #skill{
     height: auto;
     /* overflow: hidden; */
@@ -253,7 +243,6 @@ a:hover{
     border-radius: 2rem;
     margin-top: 5px;
     position: relative;
-    
     
 }
 .bar span{
@@ -327,25 +316,6 @@ a:hover{
     margin-top: 2rem;
     text-align: center;
 }
-.project-1{
-    width: 400px;
-    height: 400px;
-    background-color: #0b425f;
-    text-align: center;
-    /* border: 1px solid gray; */
-    border-radius: 2rem;
-}
-.project-1 img{
-    height: 250px;
-    /* text-align: center; */
-    margin-top: 1rem;
-    border-radius: 1rem;
-}
-.project-title{
-    margin-top: 1rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
 #contact{
     height: 80vh;
 }
@@ -353,26 +323,8 @@ a:hover{
     margin-top: 2rem;
     text-align: center;
 }
-.email{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
-}
-.email p{
-    margin-bottom: 1.8rem;
-}
-.linkedin p{
-    margin-bottom: 1.8rem;
-}
-.linkedin{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
-}
+
+
  #class-i{
     display: none;
 }
@@ -403,7 +355,6 @@ a:hover{
     #class-i{ 
         display: block;
         font-size: 1.5rem;
-        
     }
     .nav-links li{
         display: none;
@@ -414,13 +365,19 @@ a:hover{
     .section-pic-container{
         height: 250px;
     } 
-    
-    
 } 
+
+.contact-me{
+    width: 358px;
+    box-shadow: 0 0 1rem gray;
+    border-radius: 1rem;
+}
 .contact-inputs{
-    background-color: #0b425f;
+    margin: auto;
+    background: white;
+    margin-top: 1rem;
     display: block;
-    width: 22rem;
+    width: 20rem;
     height: 3.5rem;
     border-radius: 1rem;
     border: none;
@@ -431,20 +388,14 @@ a:hover{
 .text-area{
     height: 10rem;
 }
-.submit-btn{
-    height: 3.3rem;
-    width: 8rem;
-    background-color: #19d9ff;
-    font-size: large;
-    border-radius: 2rem;
-    border: none;
-    color: black;
-    cursor: pointer;
+
+.btn-form{
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .p1{
     width: 596px;
-    /* height: 227px; */
     border-radius: 1rem;
     padding: 0.5rem;
     background-color: #182d38;
@@ -453,7 +404,6 @@ a:hover{
 .p1 h2{
     margin-left: 1.5rem;
     padding-top: 1rem;
-    
 }
 .p1-text{
     margin-left: 1.5rem;
