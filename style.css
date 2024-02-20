@@ -7,7 +7,6 @@
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    /* background-color: #165272; */
     background-color: #182d38;
     color: white;
 }
@@ -146,7 +145,6 @@ a:hover{
     font-weight: 600;
     padding: 1rem;
     border-radius: 2rem;
-    /* border: 1px solid gray; */
     cursor: pointer;
     box-shadow: 0 0 0.7rem darkgrey;
     background-color: rgb(24, 45, 56);
@@ -154,7 +152,6 @@ a:hover{
     border: none;
 }
 .btn-primary-container{
-    /* background: #165272; */
     background-color: #182d38;
     margin-bottom: 2rem;
 }
