@@ -1,2 +1,1 @@
-# My-Portfolio
-It is the code of my portfolio.
+# This is my portfolio using HTML, CSS and JavaScript.
